@@ -127,7 +127,7 @@ The app may use data such as:
 - service fees
 - total amount
 - payment method
-- purchase channel, such as in-person or online
+- purchase channel, such as in person or online
 - purchase date
 - receipt upload information
 
@@ -153,11 +153,15 @@ Dashboard displays spending insights
 
 The app uses logic to organize purchases, calculate extra costs, measure gratuity percentage, total taxes and fees, identify frequent vendors, and summarize monthly spending trends.
 
-## API Information
+## API and AI Information
 
-SpendWise does not require a public API for the basic version. The main data comes from user input and uploaded receipts.
+SpendWise does not require a public banking or finance API for the basic dashboard. The main financial data comes from user entered purchases and uploaded receipts.
 
-If future versions are expanded, an API could be added for features such as automatic bank syncing, receipt scanning, or vendor data. For this version, the focus is on user-provided purchase data and clear financial insights.
+The app does use an AI powered receipt scanning feature for uploaded receipts. When a user uploads a receipt, the app processes the file and extracts structured purchase information such as vendor, item, base price, gratuity, taxes, fees, category, payment method, and date.
+
+This AI feature is used to make receipt entry faster, but the user still needs to review the information. The purpose of the AI is not to give a generic response, but to help turn receipt data into organized purchase data for the dashboard.
+
+If future versions are expanded, an API could be added for features such as automatic bank syncing, receipt scanning, or vendor data. For this version, the focus is on user provided purchase data and clear financial insights.
 
 ## Features
 
@@ -181,3 +185,8 @@ If future versions are expanded, an API could be added for features such as auto
 
 - Sabal Dhoj Adhikary
 - Aaliyah Minnie
+
+## Project Links
+
+- Replit App: (https://spend-wise-sabaladhikary-aaliyahminnie.replit.app/)
+- GitHub Repository: (https://github.com/SabalAdhikary-web/SpendWise)
