@@ -269,16 +269,6 @@ This logic is what makes SpendWise different from a normal spending tracker. Ins
 
 The friction ratio helps show how much extra the user paid above the base price. The gratuity ratio helps show how much of the purchase came from tips or gratuity.
 
-## Optional Code Screenshot
-
-Add a screenshot of the actual app code here:
-
-```markdown
-![SpendWise Code Example](screenshots/code-example.png)
-```
-
-This screenshot should show a real part of the app where purchases, totals, tips, taxes, fees, or receipt upload logic are handled.
-
 ---
 
 # 12. Data Used
